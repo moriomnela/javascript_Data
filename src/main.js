@@ -1,8 +1,8 @@
-const dev ={
-    name : "Moriom",
-    age : 25,
-    skill:"Laravel"
-}; 
-const { name, skill ,Laravel} = dev;
-
-console.log(skill);
+console.log(resultSystempro({
+    bangla: 79,
+    english: 81,
+    math: 83,
+    science: 89, 
+    reli: 87,
+ })
+);
