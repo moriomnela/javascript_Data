@@ -30,6 +30,17 @@ dev = {
        ...dev.edu,
        hsc: "4.59",
     },
+    blood_donation : [...dev.blood_donation.map((item,index) => {
+        if(item.name=="Rifat"){
+          return {
+            ...item,
+            name :"Rubayet Rifat",
+          } ;    
+        }
+        else {
+            return item;
+        }
+    })],
 };
 
 console.log(dev);
